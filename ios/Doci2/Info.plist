@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Doci2</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>AntDesign.ttf</string>
+		<string>Entypo.ttf</string>
+		<string>EvilIcons.ttf</string>
+		<string>Feather.ttf</string>
+		<string>FontAwesome.ttf</string>
+		<string>FontAwesome5_Brands.ttf</string>
+		<string>FontAwesome5_Regular.ttf</string>
+		<string>FontAwesome5_Solid.ttf</string>
+		<string>Fontisto.ttf</string>
+		<string>Foundation.ttf</string>
+		<string>Ionicons.ttf</string>
+		<string>MaterialCommunityIcons.ttf</string>
+		<string>MaterialIcons.ttf</string>
+		<string>Octicons.ttf</string>
+		<string>Roboto_medium.ttf</string>
+		<string>Roboto.ttf</string>
+		<string>rubicon-icon-font.ttf</string>
+		<string>SimpleLineIcons.ttf</string>
+		<string>Zocial.ttf</string>
+		<string>2 Aseman.ttf</string>
+		<string>2 Kaj.ttf</string>
+		<string>2 Kamran Outline.ttf</string>
+		<string>2 Niki Outline.ttf</string>
+		<string>2 Niki Shadow.ttf</string>
+		<string>2 Rose.ttf</string>
+		<string>2 Shadi.ttf</string>
+		<string>2 Titr Bold.ttf</string>
+		<string>2 Zaman.ttf</string>
+		<string>A Sogand.ttf</string>
+		<string>A.Afsaneh.ttf</string>
+		<string>A.Soraya.ttf</string>
+		<string>Azin.ttf</string>
+		<string>B Badkonak.ttf</string>
+		<string>B.Shekari.ttf</string>
+		<string>Bauhaus ITC.ttf</string>
+		<string>Beauty Mountains Personal Use.ttf</string>
+		<string>dara- latin-banaei.ttf</string>
+		<string>Eczar.ttf</string>
+		<string>EntezarF2_v2.0.1.ttf</string>
+		<string>Hakim.Ghazali.ttf</string>
+		<string>IranNastaliq_02.ttf</string>
+		<string>IranNastaliq.ttf</string>
+		<string>IRHoma.ttf</string>
+		<string>KaTeX_Math.ttf</string>
+		<string>Mj_Diwani Decor.ttf</string>
+		<string>Mj_Pashtu Outline.ttf</string>
+		<string>2 Aseman Italic.ttf</string>
+		<string>2 Baran Italic.ttf</string>
+		<string>2 Baran Outline Italic.ttf</string>
+		<string>2 Baran Outline.ttf</string>
+		<string>2 Baran.ttf</string>
+		<string>2 Bardiya Bold.ttf</string>
+		<string>2 Bardiya.ttf</string>
+		<string>2 Davat.ttf</string>
+		<string>2 Elham.ttf</string>
+		<string>2 Elm Border.ttf</string>
+		<string>2 Elm Italic.ttf</string>
+		<string>2 Elm.ttf</string>
+		<string>2 Esfehan Bold.ttf</string>
+		<string>2 Hamid.ttf</string>
+		<string>2 Helal.ttf</string>
+		<string>2 Kamran Bold.ttf</string>
+		<string>2 Kamran.ttf</string>
+		<string>2 Karim Bold.ttf</string>
+		<string>2 Karim.ttf</string>
+		<string>2 Mah.ttf</string>
+		<string>2 Mehr Bold.ttf</string>
+		<string>2 Narenj.ttf</string>
+		<string>2 Niki Border Italic.ttf</string>
+		<string>2 Niki Border.ttf</string>
+		<string>2 Niki Outline Italic.ttf</string>
+		<string>2 Niki Shadow Italic.ttf</string>
+		<string>2 Nikoo Italic.ttf</string>
+		<string>2 Nikoo.ttf</string>
+		<string>2 Sahar.ttf</string>
+		<string>2 Sara.ttf</string>
+		<string>2 Sepideh Outline.ttf</string>
+		<string>2 Sepideh.ttf</string>
+		<string>2 Setareh.ttf</string>
+		<string>2 Shiraz Italic.ttf</string>
+		<string>2 Shiraz.ttf</string>
+		<string>A.Ali.ttf</string>
+		<string>A.Amine.ttf</string>
+		<string>A.Aref.Graffiti.ttf</string>
+		<string>A.Arghavan.ttf</string>
+		<string>A.Armita.Black.ttf</string>
+		<string>A.Armita.Light.ttf</string>
+		<string>A.Arsoo.ttf</string>
+		<string>A.Atila.ttf</string>
+		<string>A.Bank.ttf</string>
+		<string>A.Chamran.ttf</string>
+		<string>A.Danesh.Bold.Italic.ttf</string>
+		<string>A.Danesh.Bold.ttf</string>
+		<string>A.Danesh.Italic.ttf</string>
+		<string>A.Danesh.ttf</string>
+		<string>A.Dastan.ttf</string>
+		<string>A.Farhood.ttf</string>
+		<string>A.Farzian.2.ttf</string>
+		<string>A.Farzian.ttf</string>
+		<string>A.Gam.Azad.ttf</string>
+		<string>A.Gol.ttf</string>
+		<string>A.Goldan.ttf</string>
+		<string>A.Google.ttf</string>
+		<string>A.Hamase.ttf</string>
+		<string>A.Hayat.01.ttf</string>
+		<string>A.Hayat.02.ttf</string>
+		<string>A.Hemmat.ttf</string>
+		<string>A.Jannat.LT.Bold.ttf</string>
+		<string>A.Jannat.LT.Regular.ttf</string>
+		<string>A.Ketab.Bold.ttf</string>
+		<string>A.Ketab.Italic.ttf</string>
+		<string>A.Ketab.Khali.ttf</string>
+		<string>A.Ketab.ttf</string>
+		<string>A.khat.khati.ttf</string>
+		<string>A.Lamia.ttf</string>
+		<string>A.Maghreb.Jadid.ttf</string>
+		<string>A.Mashin.Tahrir.Bold.ttf</string>
+		<string>A.Mashin.Tahrir.Italic.ttf</string>
+		<string>A.Mashin.Tahrir.Old.ttf</string>
+		<string>A.Mashin.Tahrir.ttf</string>
+		<string>A.Mosalas.ttf</string>
+		<string>A.Nahar-Black.ttf</string>
+		<string>A.Nahar-Bold.ttf</string>
+		<string>A.Nahar-Medium.ttf</string>
+		<string>A.Naskh.Tahrir.Bold.ttf</string>
+		<string>A.Naskh.Tahrir.ttf</string>
+		<string>A.Negaar.Bold.ttf</string>
+		<string>A.Negaar.Regular.ttf</string>
+		<string>A.Piramooz.B1.ttf</string>
+		<string>A.Piramooz.Text.B2.ttf</string>
+		<string>A.Pixel.2.ttf</string>
+		<string>A.Pixel.ttf</string>
+		<string>A.RaiMediaBlack.ttf</string>
+		<string>A.RaiMediaBold.ttf</string>
+		<string>A.Refaghat.ttf</string>
+		<string>A.Rooznameh.ttf</string>
+		<string>A.Sade.ttf</string>
+		<string>A.Salamat.ttf</string>
+		<string>A.Sane.Jaleh.ttf</string>
+		<string>A.Shablon.Cut.ttf</string>
+		<string>A.Shams.ttf</string>
+		<string>A.Sim.Khardar.ttf</string>
+		<string>A.Sina.PC.ttf</string>
+		<string>A.Sogand.ttf</string>
+		<string>A.Spirit.Of.Doha.Black.ttf</string>
+		<string>A.Spirit.Of.Doha.Bold.ttf</string>
+		<string>A.Spirit.Of.Doha.Medium.ttf</string>
+		<string>A.Taha.ttf</string>
+		<string>A.Thuluth.ttf</string>
+		<string>A.Titraj.1.Bold.ttf</string>
+		<string>A.Titraj.2.Bold.ttf</string>
+		<string>A.Yasamin.ttf</string>
+		<string>A.Zarghan.Hadith.ttf</string>
+		<string>A.ZARGHAN.HAY.NAHATAG.ttf</string>
+		<string>Aban Bold.ttf</string>
+		<string>Aban Light.ttf</string>
+		<string>Aban.ttf</string>
+		<string>Afra Light.ttf</string>
+		<string>Afra.ttf</string>
+		<string>Arash.ttf</string>
+		<string>Azargoon.ttf</string>
+		<string>Azita.ttf</string>
+		<string>B Arabics Style.ttf</string>
+		<string>B Arash.ttf</string>
+		<string>B Aria.ttf</string>
+		<string>B Arshia.ttf</string>
+		<string>B Aseman Italic.ttf</string>
+		<string>B Aseman.ttf</string>
+		<string>B Badr Bold.ttf</string>
+		<string>B Badr.ttf</string>
+		<string>B Baran Italic.ttf</string>
+		<string>B Baran Outline Italic.ttf</string>
+		<string>B Baran Outline.ttf</string>
+		<string>B Baran.ttf</string>
+		<string>B Bardiya Bold.ttf</string>
+		<string>B Bardiya.ttf</string>
+		<string>B Cheshmeh Bold.ttf</string>
+		<string>B Cheshmeh.ttf</string>
+		<string>B Chini.ttf</string>
+		<string>B Compset Bold.ttf</string>
+		<string>B Compset.ttf</string>
+		<string>B Davat.ttf</string>
+		<string>B Elham.ttf</string>
+		<string>B Elm Bold.ttf</string>
+		<string>B Elm Italic.ttf</string>
+		<string>B Elm.ttf</string>
+		<string>B Esfehan Bold.ttf</string>
+		<string>B Fantezy.ttf</string>
+		<string>B Farnaz.ttf</string>
+		<string>B Ferdosi.ttf</string>
+		<string>B Haleh Bold.ttf</string>
+		<string>B Haleh.ttf</string>
+		<string>B Hamid.ttf</string>
+		<string>B Helal.ttf</string>
+		<string>B Homa.ttf</string>
+		<string>B Jadid Bold.ttf</string>
+		<string>B Jalal Bold.ttf</string>
+		<string>B Jalal.ttf</string>
+		<string>B Johar.ttf</string>
+		<string>B Kaj.ttf</string>
+		<string>B Kamran Bold.ttf</string>
+		<string>B Kamran Outline.ttf</string>
+		<string>B Kamran.ttf</string>
+		<string>B Karim Bold.ttf</string>
+		<string>B Karim.ttf</string>
+		<string>B Kaveh.ttf</string>
+		<string>B Kidnap.ttf</string>
+		<string>B Koodak Bold.ttf</string>
+		<string>B Koodak Outline.ttf</string>
+		<string>B Kourosh.ttf</string>
+		<string>B Lotus Bold.ttf</string>
+		<string>B Lotus.ttf</string>
+		<string>B Mah.ttf</string>
+		<string>B Mahsa.ttf</string>
+		<string>B Majid Shadow.ttf</string>
+		<string>B Mashhad Bold Italic.ttf</string>
+		<string>B Mashhad Bold.ttf</string>
+		<string>B Mashhad Italic.ttf</string>
+		<string>B Mashhad.ttf</string>
+		<string>B Masjed.ttf</string>
+		<string>B Medad.ttf</string>
+		<string>B Mehr Bold.ttf</string>
+		<string>B Mitra Bold.ttf</string>
+		<string>B Mitra.ttf</string>
+		<string>B Moj.ttf</string>
+		<string>B Morvarid.ttf</string>
+		<string>B Narenj.ttf</string>
+		<string>B Narm.ttf</string>
+		<string>B Nasim Bold.ttf</string>
+		<string>B Nazanin Bold.ttf</string>
+		<string>B Nazanin Outline.ttf</string>
+		<string>B Nazanin.ttf</string>
+		<string>B Niki Bold.ttf</string>
+		<string>B Niki Border Italic.ttf</string>
+		<string>B Niki Outline Italic.ttf</string>
+		<string>B Niki Outline.ttf</string>
+		<string>B Niki Shadow Italic.ttf</string>
+		<string>B Niki Shadow.ttf</string>
+		<string>B Nikoo Italic.ttf</string>
+		<string>B Nikoo.ttf</string>
+		<string>B Paatch Bold.ttf</string>
+		<string>B Paatch.ttf</string>
+		<string>B Rose.ttf</string>
+		<string>B Roya Bold.ttf</string>
+		<string>B Roya.ttf</string>
+		<string>B Sahar.ttf</string>
+		<string>B Sahra.ttf</string>
+		<string>B Sara.ttf</string>
+		<string>B Sepideh Outline.ttf</string>
+		<string>B Sepideh.ttf</string>
+		<string>B Setareh Bold.ttf</string>
+		<string>B Setareh.ttf</string>
+		<string>B Shadi.ttf</string>
+		<string>B Shiraz Italic.ttf</string>
+		<string>B Shiraz.ttf</string>
+		<string>B Siavash.ttf</string>
+		<string>B Sina Bold.ttf</string>
+		<string>B Sooreh Bold.ttf</string>
+		<string>B Sooreh.ttf</string>
+		<string>B Sorkhpust.ttf</string>
+		<string>B Tabssom.ttf</string>
+		<string>B Tanab.ttf</string>
+		<string>B Tawfig Outline.ttf</string>
+		<string>B Tehran Italic.ttf</string>
+		<string>B Tehran.ttf</string>
+		<string>B Tir.ttf</string>
+		<string>B Titr Bold.ttf</string>
+		<string>B Traffic Bold.ttf</string>
+		<string>B Traffic.ttf</string>
+		<string>B Vahid Bold.ttf</string>
+		<string>B Vosta Italic.ttf</string>
+		<string>B Vosta.ttf</string>
+		<string>B Yagut Bold.ttf</string>
+		<string>B Yagut.ttf</string>
+		<string>B Yas Bold.ttf</string>
+		<string>B Yas.ttf</string>
+		<string>B Yekan.ttf</string>
+		<string>B Zaman.ttf</string>
+		<string>B Zar Bold.ttf</string>
+		<string>B Zar.ttf</string>
+		<string>B Ziba.ttf</string>
+		<string>B.Araz.ttf</string>
+		<string>Badr Mazar.ttf</string>
+		<string>Compset Mazar.ttf</string>
+		<string>dara- latin-banaei-conect.ttf</string>
+		<string>dara- latin.ttf</string>
+		<string>dara-fer.ttf</string>
+		<string>dara-form.ttf</string>
+		<string>dara-lux.ttf</string>
+		<string>dara-magic.ttf</string>
+		<string>dara-peyvastee.ttf</string>
+		<string>dara-sarve2.ttf</string>
+		<string>dara-voice2.ttf</string>
+		<string>dara-zanjir.ttf</string>
+		<string>dara-zar.ttf</string>
+		<string>Divani Mazar.ttf</string>
+		<string>Divani.ttf</string>
+		<string>Diwani.ttf</string>
+		<string>Elham.ttf</string>
+		<string>ELLA.ttf</string>
+		<string>Entezar.v1.00.ttf</string>
+		<string>Entezar1_v2.0.1.ttf</string>
+		<string>Entezar2_v2.0.1.ttf</string>
+		<string>Entezar3_v2.0.1.ttf</string>
+		<string>Entezar4_v2.0.1.ttf</string>
+		<string>Entezar5_v2.0.1.ttf</string>
+		<string>Entezar6_v2.0.1.ttf</string>
+		<string>EntezarB3_v2.0.1.ttf</string>
+		<string>EntezarB4_v2.0.1_.ttf</string>
+		<string>EntezarC_v2.0.1.ttf</string>
+		<string>EntezarC3_v2.0.1.ttf</string>
+		<string>EntezarD_v2.0.1.ttf</string>
+		<string>EntezarD3_v2.0.1.ttf</string>
+		<string>EntezarD5_v2.0.1.ttf</string>
+		<string>EntezarD6_v2.0.1.ttf</string>
+		<string>EntezarD8_v2.0.1.ttf</string>
+		<string>EntezarE2_v2.0.1.ttf</string>
+		<string>EntezarE3_v2.0.1.ttf</string>
+		<string>Fantezy Normal.ttf</string>
+		<string>Far.Black.ttf</string>
+		<string>Far.Johar.ttf</string>
+		<string>Ferdosi Mazar.ttf</string>
+		<string>Grand Kufi Mazar.ttf</string>
+		<string>Grand Kufi.ttf</string>
+		<string>Hedieh.ttf</string>
+		<string>Hoda Bold.ttf</string>
+		<string>Hoda Light.ttf</string>
+		<string>Hoda.ttf</string>
+		<string>Homa.ttf</string>
+		<string>Husseini.ttf</string>
+		<string>IRAban.ttf</string>
+		<string>IRAmir.ttf</string>
+		<string>IRArshia.ttf</string>
+		<string>IRBadr.ttf</string>
+		<string>IRBadrBold.ttf</string>
+		<string>IRBadrIranic.ttf</string>
+		<string>IRCompset.ttf</string>
+		<string>IRCompsetBold.ttf</string>
+		<string>IRCompsetIranic.ttf</string>
+		<string>IRDastNevis.ttf</string>
+		<string>IRDavat.ttf</string>
+		<string>IRElham.ttf</string>
+		<string>IREntezar.ttf</string>
+		<string>IRFarnaz.ttf</string>
+		<string>IRFerdosi.ttf</string>
+		<string>IRJadid.ttf</string>
+		<string>IRKamran.ttf</string>
+		<string>IRKhorasan.ttf</string>
+		<string>IRKoodak.ttf</string>
+		<string>IRLotus.ttf</string>
+		<string>IRLotusBold.ttf</string>
+		<string>IRLotusIranic.ttf</string>
+		<string>IRMaryam.ttf</string>
+		<string>IRMashhad.ttf</string>
+		<string>IRMehr.ttf</string>
+		<string>IRMitra.ttf</string>
+		<string>IRMitraBold.ttf</string>
+		<string>IRMitraIranic.ttf</string>
+		<string>IRMomtaz.ttf</string>
+		<string>IRNarges.ttf</string>
+		<string>IRNaskh.ttf</string>
+		<string>IRNazanin.ttf</string>
+		<string>IRNazaninBold.ttf</string>
+		<string>IRNazaninIranic.ttf</string>
+		<string>IRNazli.ttf</string>
+		<string>IRNazliBold.ttf</string>
+		<string>IRPooya.ttf</string>
+		<string>IRRoya.ttf</string>
+		<string>IRRoyaBold.ttf</string>
+		<string>IRRoyaIranic.ttf</string>
+		<string>irsans.ttf</string>
+		<string>IRShiraz.ttf</string>
+		<string>IRSina.ttf</string>
+		<string>IRTabassom.ttf</string>
+		<string>IRTehran.ttf</string>
+		<string>IRTerafik.ttf</string>
+		<string>IRTerafikBold.ttf</string>
+		<string>IRTerafikIranic.ttf</string>
+		<string>IRTitr.ttf</string>
+		<string>IRYakout.ttf</string>
+		<string>IRYakoutBold.ttf</string>
+		<string>IRYakoutIranic.ttf</string>
+		<string>IRYekan.ttf</string>
+		<string>IRYekanBold.ttf</string>
+		<string>IRZar.ttf</string>
+		<string>IRZarBold.ttf</string>
+		<string>IRZarIranic.ttf</string>
+		<string>IRZeytoon.ttf</string>
+		<string>Isfahan.ttf</string>
+		<string>Kokab.ttf</string>
+		<string>Koodak Mazar.ttf</string>
+		<string>KOODAK O.ttf</string>
+		<string>KOODAK.ttf</string>
+		<string>Laleh.ttf</string>
+		<string>LateefRegOT.ttf</string>
+		<string>Lotus Mazar.ttf</string>
+		<string>Majalle Mazar.ttf</string>
+		<string>Majalle.ttf</string>
+		<string>Majid Shodow Normal.ttf</string>
+		<string>Majiid Mazar.ttf</string>
+		<string>Majiid Shaded Mazar.ttf</string>
+		<string>Majiid Shaded.ttf</string>
+		<string>Majiid.ttf</string>
+		<string>Maryam.ttf</string>
+		<string>Mashad.ttf</string>
+		<string>Mashgh Mazar.ttf</string>
+		<string>Mashgh.ttf</string>
+		<string>Massir.Ballpoint.ttf</string>
+		<string>Massir.Spray.ttf</string>
+		<string>Mehr.ttf</string>
+		<string>MILADO.ttf</string>
+		<string>Mina Extra Light.ttf</string>
+		<string>Mina Light.ttf</string>
+		<string>Mitra Bold Mazar.ttf</string>
+		<string>Mitra Mazar.ttf</string>
+		<string>Mj_Abasan.ttf</string>
+		<string>Mj_Abdoullah.ttf</string>
+		<string>Mj_Adab.ttf</string>
+		<string>Mj_Adell.ttf</string>
+		<string>Mj_Advertising Bold.ttf</string>
+		<string>Mj_Advertising Extra Bold.ttf</string>
+		<string>Mj_Advertising Light.ttf</string>
+		<string>Mj_Advertising Medium.ttf</string>
+		<string>Mj_Afaaq.ttf</string>
+		<string>Mj_Afrigha.ttf</string>
+		<string>Mj_Afsoon.ttf</string>
+		<string>Mj_Akbar.ttf</string>
+		<string>Mj_Alex.ttf</string>
+		<string>Mj_Alphabet.ttf</string>
+		<string>Mj_Aman.ttf</string>
+		<string>Mj_AMina.ttf</string>
+		<string>Mj_Annab.ttf</string>
+		<string>Mj_Anoosh.ttf</string>
+		<string>Mj_Aramco Bold.ttf</string>
+		<string>Mj_Aramco Light.ttf</string>
+		<string>Mj_Aref.ttf</string>
+		<string>Mj_AridiKoufi.ttf</string>
+		<string>Mj_AridiNaskh Black.ttf</string>
+		<string>Mj_AridiNaskh Bold.ttf</string>
+		<string>Mj_AridiNaskh Plain.ttf</string>
+		<string>Mj_Art Bold.ttf</string>
+		<string>Mj_Ashgar.ttf</string>
+		<string>Mj_Asifa Bold.ttf</string>
+		<string>Mj_AUres.ttf</string>
+		<string>Mj_Badr Point.ttf</string>
+		<string>Mj_Bamshad Light.ttf</string>
+		<string>Mj_Bamshad.ttf</string>
+		<string>Mj_Barik.ttf</string>
+		<string>Mj_Baseet.ttf</string>
+		<string>Mj_Bassam.ttf</string>
+		<string>Mj_Beirut Heading.ttf</string>
+		<string>Mj_Beirut Light.ttf</string>
+		<string>Mj_Beirut Lt X3.ttf</string>
+		<string>Mj_Beirut Md.ttf</string>
+		<string>Mj_Beirut.ttf</string>
+		<string>Mj_Bist.ttf</string>
+		<string>Mj_Bita Bold.ttf</string>
+		<string>Mj_Bita.ttf</string>
+		<string>Mj_Black.ttf</string>
+		<string>Mj_Bold.ttf</string>
+		<string>Mj_Bomba.ttf</string>
+		<string>Mj_Box Negative.ttf</string>
+		<string>Mj_Box Outline.ttf</string>
+		<string>Mj_Box Shade.ttf</string>
+		<string>Mj_Box.ttf</string>
+		<string>Mj_Cairo.ttf</string>
+		<string>Mj_Calligraph.ttf</string>
+		<string>Mj_Cap Bold.ttf</string>
+		<string>Mj_Cap Light.ttf</string>
+		<string>Mj_Cap Medium.ttf</string>
+		<string>Mj_Casablanca Heavy.ttf</string>
+		<string>Mj_Casablanca Light.ttf</string>
+		<string>Mj_Casablanca.ttf</string>
+		<string>Mj_Classic.ttf</string>
+		<string>Mj_colors'.ttf</string>
+		<string>Mj_Contrast.ttf</string>
+		<string>Mj_Cordoba Outline.ttf</string>
+		<string>Mj_Cordoba.ttf</string>
+		<string>Mj_Curves Outline.ttf</string>
+		<string>Mj_Curves.ttf</string>
+		<string>Mj_Dalal St.ttf</string>
+		<string>Mj_Dalal Text.ttf</string>
+		<string>Mj_Dalal.ttf</string>
+		<string>Mj_Dalghak.ttf</string>
+		<string>Mj_Damaa Light.ttf</string>
+		<string>Mj_Damas.ttf</string>
+		<string>Mj_Decorative Bold.ttf</string>
+		<string>Mj_Diala.ttf</string>
+		<string>Mj_Digital Arabia LT.ttf</string>
+		<string>Mj_Digital Arabia XL.ttf</string>
+		<string>Mj_Digital Arabia.ttf</string>
+		<string>Mj_Dimona.ttf</string>
+		<string>Mj_Dinar One Light.ttf</string>
+		<string>Mj_Dinar One Medium.ttf</string>
+		<string>Mj_Dinar Two Light.ttf</string>
+		<string>Mj_Dinar Two Medium.ttf</string>
+		<string>Mj_Diwani 3D Shadow.ttf</string>
+		<string>Mj_Diwani Collage.ttf</string>
+		<string>Mj_Diwani Normal.ttf</string>
+		<string>Mj_Diwani Outline.ttf</string>
+		<string>Mj_Domrol.ttf</string>
+		<string>Mj_Donia.ttf</string>
+		<string>Mj_East Extra Bold.ttf</string>
+		<string>Mj_East Extra Italic.ttf</string>
+		<string>Mj_East Extra Light.ttf</string>
+		<string>Mj_East Extra Mediom.ttf</string>
+		<string>Mj_Ebrahim.ttf</string>
+		<string>Mj_Egypt.ttf</string>
+		<string>Mj_Ekhlass.ttf</string>
+		<string>Mj_Elegant Bold.ttf</string>
+		<string>Mj_Elegant Light.ttf</string>
+		<string>Mj_Elegant Medium.ttf</string>
+		<string>Mj_Elit.ttf</string>
+		<string>Mj_Extender X-Slant.ttf</string>
+		<string>Mj_Extender X4 Deeper.ttf</string>
+		<string>Mj_Extender X4 Super Fit.ttf</string>
+		<string>Mj_Extender X4.ttf</string>
+		<string>Mj_Extender.ttf</string>
+		<string>Mj_Fantezy Cut.ttf</string>
+		<string>Mj_Fantezy Flage.ttf</string>
+		<string>Mj_Fantezy Wave.ttf</string>
+		<string>Mj_Fantezy.ttf</string>
+		<string>Mj_Farah Italic.ttf</string>
+		<string>Mj_Farah Light.ttf</string>
+		<string>Mj_Farah Medium.ttf</string>
+		<string>Mj_Farah Outline.ttf</string>
+		<string>Mj_Farah.ttf</string>
+		<string>Mj_Faraj.ttf</string>
+		<string>Mj_Farasha Bold.ttf</string>
+		<string>Mj_Farasha Light.ttf</string>
+		<string>Mj_Farasha Mediom.ttf</string>
+		<string>Mj_Faraz Outline.ttf</string>
+		<string>Mj_Faraz.ttf</string>
+		<string>Mj_Fares Bold.ttf</string>
+		<string>Mj_Fares Light.ttf</string>
+		<string>Mj_Fares Medium.ttf</string>
+		<string>Mj_Farsi Simple Normal.ttf</string>
+		<string>Mj_Farsi Simple Outline.ttf</string>
+		<string>Mj_Faten.ttf</string>
+		<string>Mj_Fikrah Light.ttf</string>
+		<string>Mj_Flow Bold.ttf</string>
+		<string>Mj_Flow Regular.ttf</string>
+		<string>Mj_Fonoon.ttf</string>
+		<string>Mj_Fossil.ttf</string>
+		<string>Mj_Free.ttf</string>
+		<string>Mj_Freehand.ttf</string>
+		<string>Mj_Furat.ttf</string>
+		<string>Mj_Future.ttf</string>
+		<string>Mj_Ghafeleh.ttf</string>
+		<string>Mj_Ghalam-1.ttf</string>
+		<string>Mj_Ghalam-2.ttf</string>
+		<string>Mj_Ghods.ttf</string>
+		<string>Mj_Ghriba.ttf</string>
+		<string>Mj_Granada Outline.ttf</string>
+		<string>Mj_Granada Shade.ttf</string>
+		<string>Mj_Granada.ttf</string>
+		<string>Mj_Graphic.ttf</string>
+		<string>Mj_Hajar.ttf</string>
+		<string>Mj_Hammed.ttf</string>
+		<string>Mj_Hasoneh.ttf</string>
+		<string>Mj_Heritage One Bold.ttf</string>
+		<string>Mj_Heritage Two Bold.ttf</string>
+		<string>Mj_Hesham Kufi.ttf</string>
+		<string>Mj_Hili Book.ttf</string>
+		<string>Mj_Hili Light.ttf</string>
+		<string>Mj_Holool 3D Shadow.ttf</string>
+		<string>Mj_Holool Bold.ttf</string>
+		<string>Mj_Holool Light.ttf</string>
+		<string>Mj_Holool Mosaic.ttf</string>
+		<string>Mj_Hoor.ttf</string>
+		<string>Mj_Ichbilia.ttf</string>
+		<string>Mj_Jaleh.ttf</string>
+		<string>Mj_Jamshid.ttf</string>
+		<string>Mj_Jarida.ttf</string>
+		<string>Mj_Jordan.ttf</string>
+		<string>Mj_Joude.ttf</string>
+		<string>Mj_Kaman.ttf</string>
+		<string>Mj_Karwad.ttf</string>
+		<string>Mj_Kayrawan.ttf</string>
+		<string>Mj_Khateeb.ttf</string>
+		<string>Mj_Kids Particles.ttf</string>
+		<string>Mj_Kids.ttf</string>
+		<string>Mj_King 1.ttf</string>
+		<string>Mj_King 2.ttf</string>
+		<string>Mj_Kofi_Ahram.ttf</string>
+		<string>Mj_Kofi_Modern.ttf</string>
+		<string>Mj_Koufiya.ttf</string>
+		<string>Mj_Lab Outline.ttf</string>
+		<string>Mj_Lab.ttf</string>
+		<string>Mj_Lady Medium.ttf</string>
+		<string>Mj_Large.ttf</string>
+		<string>Mj_Lebanon.ttf</string>
+		<string>Mj_Liner Print-out Light.ttf</string>
+		<string>Mj_Liner Print-out.ttf</string>
+		<string>Mj_Liner Screen Bd.ttf</string>
+		<string>Mj_Liner Screen.ttf</string>
+		<string>Mj_Liner XL.ttf</string>
+		<string>Mj_Liner XXL.ttf</string>
+		<string>Mj_Lithium.ttf</string>
+		<string>Mj_Mahla.ttf</string>
+		<string>Mj_Mahsoon.ttf</string>
+		<string>Mj_Majd.ttf</string>
+		<string>Mj_Majed.ttf</string>
+		<string>Mj_Mandana.ttf</string>
+		<string>Mj_Mani.ttf</string>
+		<string>Mj_Marpich.ttf</string>
+		<string>Mj_Mashtour.ttf</string>
+		<string>Mj_Matin.ttf</string>
+		<string>Mj_Mavaheb.ttf</string>
+		<string>Mj_Maveddat Black.ttf</string>
+		<string>Mj_Maveddat.ttf</string>
+		<string>Mj_Mazen.ttf</string>
+		<string>Mj_Meem Medium.ttf</string>
+		<string>Mj_Meghdad.ttf</string>
+		<string>Mj_Melika.ttf</string>
+		<string>Mj_Metal.ttf</string>
+		<string>Mj_Minaret Black.ttf</string>
+		<string>Mj_Minaret Outline.ttf</string>
+		<string>Mj_Minaret.ttf</string>
+		<string>Mj_Modern_1.ttf</string>
+		<string>Mj_Modern_2.ttf</string>
+		<string>Mj_Modern_3.ttf</string>
+		<string>Mj_Modern.ttf</string>
+		<string>Mj_Moez .ttf</string>
+		<string>Mj_Mohammad.ttf</string>
+		<string>Mj_Moharram Bold.ttf</string>
+		<string>Mj_Moharram Light.ttf</string>
+		<string>Mj_Mokhtar.ttf</string>
+		<string>Mj_Moshfegh Bold.ttf</string>
+		<string>Mj_Moshfegh.ttf</string>
+		<string>Mj_Mousa.ttf</string>
+		<string>Mj_Nabigha Light.ttf</string>
+		<string>Mj_Nadine.ttf</string>
+		<string>Mj_Najah 3D.ttf</string>
+		<string>Mj_Najm Bold.ttf</string>
+		<string>Mj_Najm Light.ttf</string>
+		<string>Mj_Najm Medium.ttf</string>
+		<string>Mj_Najm Outline.ttf</string>
+		<string>Mj_Nami.ttf</string>
+		<string>Mj_Narrow Bold.ttf</string>
+		<string>Mj_Narrow Light.ttf</string>
+		<string>Mj_Naskh Titr Outline.ttf</string>
+		<string>Mj_Naskh Titr Shadow.ttf</string>
+		<string>Mj_Naskh Titr.ttf</string>
+		<string>Mj_Naskhi.ttf</string>
+		<string>Mj_Nasr.ttf</string>
+		<string>Mj_Nawal.ttf</string>
+		<string>Mj_Nawress.ttf</string>
+		<string>Mj_Nazila 2.ttf</string>
+		<string>Mj_Nazila 3D Shadow.ttf</string>
+		<string>Mj_Nazila College.ttf</string>
+		<string>Mj_Nazila Cow.ttf</string>
+		<string>Mj_Nazila Gol.ttf</string>
+		<string>Mj_Nazila.ttf</string>
+		<string>Mj_Neda Outline.ttf</string>
+		<string>Mj_Neda.ttf</string>
+		<string>Mj_Net.ttf</string>
+		<string>Mj_New Bold.ttf</string>
+		<string>Mj_Newspaper.ttf</string>
+		<string>Mj_Nidal.ttf</string>
+		<string>Mj_Nil 1.ttf</string>
+		<string>Mj_Nil 2.ttf</string>
+		<string>Mj_Nil 3.ttf</string>
+		<string>Mj_Nissabouri.ttf</string>
+		<string>Mj_Noor.ttf</string>
+		<string>Mj_Normal.ttf</string>
+		<string>Mj_Nova.ttf</string>
+		<string>Mj_Ojan Outline.ttf</string>
+		<string>Mj_Ojan.ttf</string>
+		<string>Mj_Old.ttf</string>
+		<string>Mj_Omid.ttf</string>
+		<string>Mj_Pakestan.ttf</string>
+		<string>Mj_Parand.ttf</string>
+		<string>Mj_Pashtu Bold.ttf</string>
+		<string>Mj_Pashtu Digital.ttf</string>
+		<string>Mj_Pashtu Light.ttf</string>
+		<string>Mj_Pashtu Star.ttf</string>
+		<string>Mj_Petra.ttf</string>
+		<string>Mj_Point.ttf</string>
+		<string>Mj_Promoter Lt.ttf</string>
+		<string>Mj_Promoter Md.ttf</string>
+		<string>Mj_Promoter.ttf</string>
+		<string>Mj_Qantarat Extra Bold.ttf</string>
+		<string>Mj_Qatar.ttf</string>
+		<string>Mj_Qertaj.ttf</string>
+		<string>Mj_Rabie.ttf</string>
+		<string>Mj_Rafie Art.ttf</string>
+		<string>Mj_Rafie.ttf</string>
+		<string>Mj_Rajab.ttf</string>
+		<string>Mj_Ramollah Outline.ttf</string>
+		<string>Mj_Ramollah.ttf</string>
+		<string>Mj_Rana.ttf</string>
+		<string>Mj_Rashid.ttf</string>
+		<string>Mj_Saadi Bold.ttf</string>
+		<string>Mj_Saadi Ultra.ttf</string>
+		<string>Mj_Saadi.ttf</string>
+		<string>Mj_Saeed.ttf</string>
+		<string>Mj_Sahafa.ttf</string>
+		<string>Mj_Salem.ttf</string>
+		<string>Mj_Samra Lt.ttf</string>
+		<string>Mj_Samra.ttf</string>
+		<string>Mj_Sanaa.ttf</string>
+		<string>Mj_Sandbad Bold.ttf</string>
+		<string>Mj_Sandbad Outline.ttf</string>
+		<string>Mj_Sandbad.ttf</string>
+		<string>Mj_Sattar.ttf</string>
+		<string>Mj_Saudi Arabia XL.ttf</string>
+		<string>Mj_Saudi Arabia.ttf</string>
+		<string>Mj_Sayeh-1.ttf</string>
+		<string>Mj_Sayeh-2.ttf</string>
+		<string>Mj_Sazeh Bold.ttf</string>
+		<string>Mj_Sazeh Light.ttf</string>
+		<string>Mj_Serif.ttf</string>
+		<string>Mj_Shablon Outline.ttf</string>
+		<string>Mj_Shablon.ttf</string>
+		<string>Mj_Shadow.ttf</string>
+		<string>Mj_Shafigh 2 Bold.ttf</string>
+		<string>Mj_Shafigh 2.ttf</string>
+		<string>Mj_Shafigh Mangle.ttf</string>
+		<string>Mj_Shafigh Outline.ttf</string>
+		<string>Mj_Shafigh Shade.ttf</string>
+		<string>Mj_Shafigh Stripe R.ttf</string>
+		<string>Mj_Shafigh Stripe.ttf</string>
+		<string>Mj_Shafigh.ttf</string>
+		<string>Mj_Shehab.ttf</string>
+		<string>Mj_Silicon Bold.ttf</string>
+		<string>Mj_Silicon Outline.ttf</string>
+		<string>Mj_Silicon Wide Italic.ttf</string>
+		<string>Mj_Silicon.ttf</string>
+		<string>Mj_Sima.ttf</string>
+		<string>Mj_Sina Drip.ttf</string>
+		<string>Mj_Slim High.ttf</string>
+		<string>Mj_Smooth Light.ttf</string>
+		<string>Mj_Soumer.ttf</string>
+		<string>Mj_Sozar.ttf</string>
+		<string>Mj_SS Three Light.ttf</string>
+		<string>Mj_Strike.ttf</string>
+		<string>Mj_Sudan Bd.ttf</string>
+		<string>Mj_Sudan.ttf</string>
+		<string>Mj_Susan.ttf</string>
+		<string>Mj_Tafseer.ttf</string>
+		<string>Mj_Tail Mediom.ttf</string>
+		<string>Mj_Takhteh.ttf</string>
+		<string>Mj_Talat.ttf</string>
+		<string>Mj_Tasmeem Bold.ttf</string>
+		<string>Mj_Tasmeem.ttf</string>
+		<string>Mj_Tehran.ttf</string>
+		<string>Mj_Text Bold.ttf</string>
+		<string>Mj_Text Light.ttf</string>
+		<string>Mj_Text Medium.ttf</string>
+		<string>Mj_Text Ultra Light.ttf</string>
+		<string>Mj_Thameen Book.ttf</string>
+		<string>Mj_Thameen DemiBold.ttf</string>
+		<string>Mj_Thameen Light.ttf</string>
+		<string>Mj_Tikeh.ttf</string>
+		<string>Mj_Titr 3D.ttf</string>
+		<string>Mj_Titr Cactus.ttf</string>
+		<string>Mj_Titr Collage.ttf</string>
+		<string>Mj_Titr Cow.ttf</string>
+		<string>Mj_Titr DF.ttf</string>
+		<string>Mj_Titr Outline.ttf</string>
+		<string>Mj_Titr Particle.ttf</string>
+		<string>Mj_Titr Stripe R.ttf</string>
+		<string>Mj_Titr Stripe.ttf</string>
+		<string>Mj_Tunisia Bd.ttf</string>
+		<string>Mj_Tunisia Lt.ttf</string>
+		<string>Mj_Tunisia.ttf</string>
+		<string>Mj_TV Bold.ttf</string>
+		<string>Mj_TV Light.ttf</string>
+		<string>Mj_TV Medium.ttf</string>
+		<string>Mj_Two Bold.ttf</string>
+		<string>Mj_Two Light.ttf</string>
+		<string>Mj_Two Medium.ttf</string>
+		<string>Mj_Tye Bold.ttf</string>
+		<string>Mj_Tye.ttf</string>
+		<string>Mj_Typographer Bd.ttf</string>
+		<string>Mj_Typographer Book.ttf</string>
+		<string>Mj_Typographer Heavy.ttf</string>
+		<string>Mj_Typographer.ttf</string>
+		<string>Mj_Unique Bold Expanded.ttf</string>
+		<string>Quick Kiss Personal Use.ttf</string>
+		<string>ScheherazadeRegOT.ttf</string>
+		<string>Tahoma128.ttf</string>
+		<string>Verdana.TTF</string>
+	</array>
+</dict>
+</plist>
